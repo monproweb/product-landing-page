@@ -46,14 +46,14 @@ function App() {
             <div className="icon"><i className="fab fa-3x fa-spin fa-react"></i></div>
             <div className="desc">
               <h2>Premium Materials</h2>
-              <p>React (aussi appelé React.js ou ReactJS) est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état.</p>
+              <p>React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components.</p>
             </div>
           </div>
           <div className="grid">
             <div className="icon"><i className="fas fa-3x fa-rocket"></i></div>
             <div className="desc">
               <h2>Fast Shipping</h2>
-              <p>In software development, agile (sometimes written Agile) practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customer(s)/end user(s). It advocates adaptive planning, evolutionary development, early delivery, and continual improvement, and it encourages flexible responses to change.</p>
+              <p>In software development, agile (sometimes written Agile) practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customer(s)/end user(s).</p>
             </div>
           </div>
           <div className="grid">
@@ -62,7 +62,7 @@ function App() {
             </div>
             <div className="desc">
               <h2>Quality Assurance</h2>
-              <p>Jest is a JavaScript testing framework maintained by Facebook, Inc. designed and built by Christoph Nakazawa with a focus on simplicity and support for large web applications. It works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js and Svelte. Jest does not require a lot of configuration for first time users of a testing framework.</p>
+              <p>Jest is a JavaScript testing framework maintained by Facebook, Inc. designed and built by Christoph Nakazawa with a focus on simplicity and support for large web applications.</p>
             </div>
           </div>
         </section>
