@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -16,9 +17,9 @@ function App() {
 
         <nav id="nav-bar">
           <ul>
-            <li><a className="nav-link" href="https://monproweb.io/a-propos">Features</a></li>
-            <li><a className="nav-link" href="https://monproweb.io/equipe">How It Works</a></li>
-            <li><a className="nav-link" href="https://monproweb.io">Pricing</a></li>
+            <li><a className="nav-link" href="#features">Features</a></li>
+            <li><a className="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a className="nav-link" href="#pricing">Pricing</a></li>
           </ul>
         </nav>
       </header>
@@ -64,6 +65,15 @@ function App() {
               <p>Jest is a JavaScript testing framework maintained by Facebook, Inc. designed and built by Christoph Nakazawa with a focus on simplicity and support for large web applications. It works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js and Svelte. Jest does not require a lot of configuration for first time users of a testing framework.</p>
             </div>
           </div>
+        </section>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/GRAavzrjh7g?rel=0&amp;controls=0&amp;showinfo=0"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
         </section>
         <section id="pricing">
           <div className="product" id="tenor">
