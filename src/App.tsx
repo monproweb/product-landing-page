@@ -1,124 +1,19 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div id="page-wrapper">
-      <header id="header">
-        <div className="logo">
-          <img
-            id="header-img"
-            src={logo}
-            alt="mon pro web logo"
-          />
-        </div>
-
-        <nav id="nav-bar">
-          <ul>
-            <li><a className="nav-link" href="#features">Features</a></li>
-            <li><a className="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a className="nav-link" href="#pricing">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-
-      <div className="container"></div>
-
-      <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" action="https://www.monproweb.io">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input id="submit" type="submit" value="Get Started" className="btn" />
-        </form>
-      </section>
-
-      <div className="container">
-        <section id="features">
-          <div className="grid">
-            <div className="icon"><i className="fab fa-3x fa-spin fa-react"></i></div>
-            <div className="desc">
-              <h2>Premium Materials</h2>
-              <p>React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components.</p>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="icon"><i className="fas fa-3x fa-rocket"></i></div>
-            <div className="desc">
-              <h2>Fast Shipping</h2>
-              <p>In software development, agile (sometimes written Agile) practices involve discovering requirements and developing solutions through the collaborative effort of self-organizing and cross-functional teams and their customer(s)/end user(s).</p>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="icon">
-              <i className="fas fa-3x fa-certificate" aria-hidden="true"></i>
-            </div>
-            <div className="desc">
-              <h2>Quality Assurance</h2>
-              <p>Jest is a JavaScript testing framework maintained by Facebook, Inc. designed and built by Christoph Nakazawa with a focus on simplicity and support for large web applications.</p>
-            </div>
-          </div>
-        </section>
-        <section id="how-it-works">
-          <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/GRAavzrjh7g?rel=0&amp;controls=0&amp;showinfo=0"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-        </section>
-        <section id="pricing">
-          <div className="product" id="tenor">
-            <div className="level">Web</div>
-            <h2>$600</h2>
-            <ol>
-              <li>JSX.</li>
-              <li>Components.</li>
-              <li>One-way Data Binding.</li>
-              <li>Virtual DOM.</li>
-              <li>Simplicity.</li>
-              <li>Performance.</li>
-            </ol>
-            <button className="btn">Select</button>
-          </div>
-          <div className="product" id="bass">
-            <div className="level">Mobile</div>
-            <h2>$900</h2>
-            <ol>
-              <li>Shared Business Logic with Different UI Codebases.</li>
-              <li>iOS & Android Native Mobile Apps.</li>
-              <li>Medium investment in staff and time.</li>
-              <li>A selection of Native UI elements for iOS and Android UI elements are specific to the target platform and not shared.</li>
-            </ol>
-            <button className="btn">Select</button>
-          </div>
-          <div className="product" id="valve">
-            <div className="level">Web & Mobile</div>
-            <h2>$1200</h2>
-            <ol>
-              <li>All features.</li>
-            </ol>
-            <button className="btn">Select</button>
-          </div>
-        </section>
-        <footer>
-          <ul>
-            <li><a href="https://monproweb.io/politique-de-confidentialité">Privacy</a></li>
-            <li><a href="https://monproweb.io/mentions-legales">Terms</a></li>
-            <li><a href="mailto:thomas.erhel@gmail.com">Contact</a></li>
-          </ul>
-          <span>Copyright 2021, Mon Pro Web</span>
-        </footer>
-      </div>
-    </div >
+      <Header />
+      <Hero />
+      <Features />
+      <Footer />
+    </div>
   );
 }
 
