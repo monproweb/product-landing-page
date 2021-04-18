@@ -32,8 +32,8 @@ function Hero() {
                 <iframe
                     id="video"
                     height="315"
-                    title="Why React is Eating the World | Adam Wolff"
-                    src="https://www.youtube-nocookie.com/embed/GRAavzrjh7g?rel=0&amp;controls=0&amp;showinfo=0"
+                    title="F8 2019: Mobile Innovation with React Native, ComponentKit, and Litho"
+                    src="https://www.youtube-nocookie.com/embed/NCAY0HIfrwc?rel=0&amp;controls=0&amp;showinfo=0"
                     frameBorder="0"
                     allowFullScreen
                 ></iframe>
